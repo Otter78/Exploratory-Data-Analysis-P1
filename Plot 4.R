@@ -1,5 +1,5 @@
-'extract and read the data'
-household <- read.csv("C:/Users/Jenna/Desktop/Coursera/household_power_consumption.txt", header=TRUE, sep=";", na.strings = "?")
+'extract and read the data.  You will need to save the file to your local drive and replace the ..'
+household <- read.csv(../household_power_consumption.txt", header=TRUE, sep=";", na.strings = "?")
 
 'subset data so we only deal with specific dates and format dates'
 
